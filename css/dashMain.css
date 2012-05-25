@@ -1,0 +1,113 @@
+
+body{
+	background-color: #333;
+	color: #FFF;
+	font-family: "Uni Sans SemiBold";
+}
+.gridBox{
+	background-color: #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 0px solid #666;
+}
+.serverBox{
+	float: left;
+	margin:  6px 0 0 6px;
+	background-color: #00FF00;
+	height: 140px;
+	width: 98px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 0px solid #666;
+	overflow: hidden;
+}
+.serverPingBox{
+	margin-left: 6px;
+	margin-top: 6px;
+	float: left;
+}
+.serverPingBox .region{
+	font-size: 3em;
+}
+.serverPingBox .time{
+	font-size: 3em;
+}
+
+.weatherBox{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 4em;
+}
+.smallDate{
+	font-size: 0.5em;
+}
+.project{
+	margin-bottom: 4px;
+}
+.projectBox{
+	padding: 4px 0 0 4px;
+	height: 60px;
+	background-color: #999;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 0px solid #666;
+}
+.pbLogo{
+	margin-right: 4px;
+	width: 60px;
+	float: left;
+}
+.pbName{
+	margin-right: 4px;
+	width: 230px;
+	float: left;
+	font-size: 3.2em;
+	overflow: hidden;
+}
+.pbProgress{
+	margin-right: 4px;
+	width: 556px;
+	float: left;
+}
+.pbResources{
+	width: 400px;
+	float: left;
+}
+.pbResources .pbrImage{
+	float: left;
+	margin-right: 4px;
+	width: 56px;
+	height: 56px;
+	overflow: hidden;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #222;
+}
+.pbResources img{
+	width: 56px;
+}
+
+.resource{
+	text-align: center;
+}
+
+.resource .resImage{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 124px;
+	height: 124px;
+	overflow: hidden;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #222;
+}
+.resource .closed{
+	font-size: 5em;
+}

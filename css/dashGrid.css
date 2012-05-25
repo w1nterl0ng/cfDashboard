@@ -1,0 +1,72 @@
+/* Grids */
+
+body {
+	min-width: 1280px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+}
+
+/* Grid >> Global */
+.width_1,
+.width_2,
+.width_3,
+.width_4,
+.width_5,
+.width_6,
+.width_7,
+.width_8 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin: 3px;
+}
+
+.width_1 {	width:154px;}
+.width_2 {	width:314px;}
+.width_3 {	width:474px;}
+.width_4 {	width:634px;}
+.width_5 {	width:794px;}
+.width_6 {	width:954px;}
+.width_7 {	width:1114px;}
+.width_8 {	width:1274px;}
+
+.height_1 {	height:154px;}
+.height_2 {	height:314px;}
+.height_3 {	height:474px;}
+.height_4 {	height:634px;}
+.height_5 {	height:794px;}
+.height_6 {	height:954px;}
+
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
